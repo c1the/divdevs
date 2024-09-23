@@ -17,7 +17,7 @@ export default function RootLayout({
     
     <html lang="en">
       <head>
-        <title>Your Tab Name</title>
+        <title>divdevs</title>
         <link rel="icon" href="divdevs.png" />
       </head>
       <body>

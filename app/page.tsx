@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <head>
-      <title> Divdevs </title>
+      <title> divdevs </title>
     </head>
     <ChakraProvider>
     <Navbar1 />
