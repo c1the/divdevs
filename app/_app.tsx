@@ -1,8 +1,5 @@
 import { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthState } from 'react-firebase-hooks/auth';
-import { auth } from '../app/firebase/config';
-import { getProgress } from '../app/firebase/firestore';
 import type { AppProps } from 'next/app';
 
 function MyApp({ Component, pageProps }: AppProps) {
