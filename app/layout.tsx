@@ -14,7 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    
     <html lang="en">
+      <head>
+        <title>Your Tab Name</title>
+        <link rel="icon" href="divdevs.png" />
+      </head>
       <body>
         <ChakraProvider>
           {children}
